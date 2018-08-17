@@ -1,5 +1,10 @@
 # vueapp01
 
+IMPORTANT:
+Please VHOST your LARAVEL API to server name sample.local and 
+add this to host file 127.0.0.1  sample.local 
+See  WebPack devServer proxy settings in build/webpack.dev.conf.js 
+
 > A Vue.js project
 
 ## Build Setup
@@ -28,3 +33,8 @@ npm test
 ```
 
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+
+
+IMPORTANT:
+Please VHOST your LARAVEL API to server name sample.local and add this to host file 127.0.0.1
+
