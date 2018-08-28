@@ -1,10 +1,10 @@
-<template src="./Contacts.html"></template>
+<template src="./ContactList.html"></template>
 
 <script>
 
 export default {
 
-  name: 'Home',
+  name: 'ContactList',
 
   data () {
     return {
@@ -27,6 +27,7 @@ export default {
       this.$http.get(url)
         .then(response => {
           this.contacts = response.data.data
+          console.log('this.contacts', this.contacts)
         })
     }
 
@@ -35,4 +36,4 @@ export default {
 
 </script>
 
-<style src="./Contacts.css"></style>
+<style src="./ContactList.css"></style>

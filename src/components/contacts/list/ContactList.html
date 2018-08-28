@@ -1,0 +1,22 @@
+<div class="container">
+	<div class="pt-5 pb-5">CONTACT LIST</div>	
+	
+	<div class="row">
+		<div class="col-md-2">NAME</div>			
+		<div class="col-md-2">EMAIL</div>			
+		<div class="col-md-2">PHONE</div>			
+		<div class="col-md-2">COUNTRY</div>			
+		<div class="col-md-2">CITY</div>			
+		<div class="col-md-2">ZIP</div>
+	</div>
+	<div v-for="contact in contacts" :key="contact.id"  class="row">
+			<div class="col-md-2">{{contact.name}}</div>			
+			<div class="col-md-2">{{contact.email}}</div>			
+			<div class="col-md-2">{{contact.phone}}</div>			
+			<div class="col-md-2">{{contact.country}}</div>			
+			<div class="col-md-2">{{contact.city}}</div>			
+			<div class="col-md-2">{{contact.postal}}</div>			
+	</div>
+
+
+</div>
